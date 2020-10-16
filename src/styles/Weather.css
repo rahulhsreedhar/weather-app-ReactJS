@@ -1,0 +1,104 @@
+.weather-header {
+    margin-top: 3%;
+    text-align: center;
+    color:rgb(20, 240, 240);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-input {
+    margin: 0 1em;
+    padding: 0.25em;
+    background-color: rgb(30, 30, 30);
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: teal;
+    width: 25%;
+    height: 2em;
+}
+.selectCity{
+    color: #bdffc5;
+    font-size: 150%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+.submit-button {
+    margin-top: 2%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 2em;
+    width: 10em;
+    background-color: green;
+    border: 2px solid green;
+}
+
+.show-error {
+    color: red;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-style {
+    width: 50%;
+    margin: 0.5em;
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: rgb(20, 240, 240);
+}
+
+.main-temperature {
+    font-size: 42px;
+    /* margin: 0.5em 0 0 0.5em; */
+}
+
+.second-card {
+    font-size: 16px;
+}
+
+.sunrise-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.forecast-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin: 0.5em;
+}
+
+.forecast-card {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 1em;
+    padding: 1em;
+    color: rgb(147, 194, 252);
+    font-weight: bold;
+}
+
+.card-temperature {
+    font-size: 22px;
+}
+
+.error-message {
+    color: red;
+    font-size: 20px;
+}

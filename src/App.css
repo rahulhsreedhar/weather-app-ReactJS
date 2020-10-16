@@ -1,0 +1,14 @@
+@import './styles/Weather.css';
+
+  
+ 
+body{
+  background-color: rgb(63, 25, 25);}
+.main-body{
+  width: 100%;
+}
+
+.main-content{
+  margin: auto;
+ }
+ 
